@@ -1,0 +1,31 @@
+Execicios
+
+1. AreaCalculator
+ No aplicativo AreaCalculator, voce vai criar 
+ um funcao para cadastrar N retangulos,
+ e mostrar a lista deles com seus lados (Altura, Largura) e suas areas.
+
+
+2. Calculadora de IMC da Academia do Bairro
+ No aplicativo Calculadora de IMC da Academia do Bairro, 
+    voce vai criar um funcao para cadastrar N pessoas,
+ e mostrar a lista delas com seus dados (Nome, Altura, Peso)
+  e seus IMCs.
+
+
+3. Cadastro de Livros
+ No aplicativo Cadastro de Livros,
+  voce vai criar um funcao para cadastrar N livros,
+ e mostrar a lista deles com seus dados 
+ (Titulo, Autor, Ano de Publicacao) e suas descricoes.
+ Nele precisaremos associair se o livro está alugado ou disponivel,
+  e se estiver alugado, mostrar o nome do cliente que alugou.
+
+
+4. Bibioteca melhorada
+ No aplicativo Biblioteca melhorada, voce deve melhorar o 
+ aplicativo Cadastro de Livros, 
+    adicionando a funcionalidade de relatorios de quantidade 
+    de livros locados por cliente.
+
+    
