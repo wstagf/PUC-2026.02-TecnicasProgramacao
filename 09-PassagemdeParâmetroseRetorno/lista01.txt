@@ -1,0 +1,203 @@
+Lista de Exercícios – Parâmetros em Funções
+
+Disciplina: Técnicas de Programação – CMP2105
+Conteúdo: Passagem de Parâmetros e Retorno de Funções
+Linguagem: C
+
+Objetivo da lista
+
+Desenvolver programas utilizando funções com passagem de parâmetros, organizando o código de forma modular.
+
+Cada exercício deve:
+
+utilizar funções
+
+separar entrada, processamento e saída
+
+evitar código repetido no main
+
+Exercício 1 — Função de Soma
+
+Crie um programa que:
+
+Leia dois números reais
+
+Utilize uma função chamada:
+
+float soma(float a, float b);
+
+A função deve retornar a soma dos valores
+
+O main deve exibir o resultado.
+
+Exemplo
+
+Entrada
+
+10
+5
+
+Saída
+
+Resultado: 15
+
+
+
+
+
+
+
+
+Exercício 2 — Média de Notas
+
+Crie uma função:
+
+float calcularMedia(float n1, float n2, float n3);
+
+O programa deve:
+
+Ler três notas
+
+Calcular a média
+
+Exibir o resultado
+
+
+
+
+
+
+Exercício 3 — Verificação de Situação
+
+Utilizando a função do exercício anterior, crie outra função:
+
+void verificarSituacao(float media);
+
+Regra:
+
+media >= 7 → Aprovado
+media >= 5 → Recuperação
+media < 5 → Reprovado
+
+
+
+
+
+Exercício 4 — Cálculo de Desconto
+
+Crie uma função:
+
+float calcularDesconto(float preco);
+
+Regra:
+
+desconto = 10%
+
+O programa deve:
+
+Ler o preço do produto
+
+Calcular o desconto
+
+Exibir:
+
+Preço original
+Valor do desconto
+Preço final
+
+
+
+
+
+
+Exercício 5 — Conversor de Temperatura
+
+Implemente duas funções:
+
+float celsiusParaFahrenheit(float c);
+float fahrenheitParaCelsius(float f);
+
+Fórmulas:
+
+F = (C * 9/5) + 32
+C = (F - 32) * 5/9
+
+O programa deve apresentar um menu:
+
+1 - Celsius para Fahrenheit
+2 - Fahrenheit para Celsius
+
+
+
+
+
+
+Exercício 6 — Cálculo de Salário
+
+Crie uma função:
+
+float calcularBonus(float salario);
+
+Regra:
+
+bônus = 12% do salário
+
+Outra função:
+
+float calcularSalarioFinal(float salario, float bonus);
+
+O programa deve mostrar:
+
+Salário base
+Bônus
+Salário final
+
+
+
+
+Exercício 7 — Calculadora Modular
+
+Implemente as funções:
+
+float somar(float a, float b);
+float subtrair(float a, float b);
+float multiplicar(float a, float b);
+float dividir(float a, float b);
+
+Crie um menu de calculadora:
+
+1 Soma
+2 Subtração
+3 Multiplicação
+4 Divisão
+0 Sair
+
+
+
+
+Exercício 8 — Experimento com Parâmetros
+
+Analise o código abaixo:
+
+#include <stdio.h>
+
+void alterarValor(int x){
+    x = 100;
+}
+
+int main(){
+
+    int numero = 10;
+
+    alterarValor(numero);
+
+    printf("%d\n", numero);
+
+}
+Perguntas
+
+Qual será a saída do programa?
+
+Por que a variável numero não foi alterada?
+
+O que a função recebeu: a variável ou uma cópia do valor?
